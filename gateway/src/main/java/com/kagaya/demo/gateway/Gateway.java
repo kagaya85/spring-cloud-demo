@@ -2,14 +2,12 @@ package com.kagaya.demo.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.client.EnableEurekaClient;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@EnableEurekaClient
+@EnableDiscoveryClient
 @SpringBootApplication
-public class Main {
-
+public class Gateway {
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(Gateway.class, args);
     }
-
 }

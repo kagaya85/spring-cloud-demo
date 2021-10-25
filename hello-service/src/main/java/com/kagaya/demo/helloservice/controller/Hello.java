@@ -1,4 +1,4 @@
-package com.kagaya.demo.servicea.controller;
+package com.kagaya.demo.helloservice.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
